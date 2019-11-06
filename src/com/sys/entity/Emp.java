@@ -4,9 +4,21 @@ import java.io.Serializable;
 
 public class Emp implements Serializable {
     private static final long serialVersionUID = 7922593635448653526L;
+    /**
+     * ID
+     */
     private Integer id;
+    /**
+     * 姓名
+     */
     private String name;
+    /**
+     * 年龄
+     */
     private Integer age;
+    /**
+     * 性别
+     */
     private String sex;
 
     public Emp() {
